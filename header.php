@@ -18,6 +18,8 @@
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
 
 	<?php wp_head(); ?>
 </head>
@@ -27,28 +29,23 @@
 	<div id="page" class="site">
 
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container">
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarText">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-						<?php 
-						$items = wp_get_nav_menu_items(
-							get_nav_menu_locations("main-menu")["main-menu"]
-						);
-						foreach($items as $menuItem) :
-						?>
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="<?= $menuItem->url ?>"><?= $menuItem->title; ?></a>
-						</li>  
-						<?php endforeach; ?>
-					</ul>
-					<span class="navbar-text">
-						Navbar text with an inline element
-					</span>
-				</div>
+		<nav class="navbar">
+			<div class="navbar-brand">
+				<h2>Alex Guillemin</h2>
+			</div>
+			<div class="navbar-list">
+				<ul>
+					<?php
+					$items = wp_get_nav_menu_items(
+						get_nav_menu_locations("main-menu")["main-menu"]
+					);
+					foreach ($items as $menuItem) :
+					?>
+						<li>
+							<a href="<?= $menuItem->url ?>"><?= $menuItem->title; ?></a>
+						</li>
+					<?php endforeach; ?>
+				</ul>
 			</div>
 		</nav>
 

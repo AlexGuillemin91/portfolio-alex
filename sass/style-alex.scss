@@ -1,0 +1,32 @@
+.navbar{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-around;
+
+    .navbar-brand{
+        text-transform: none;
+        font-family: "Lovers Quarrel";
+
+        h2{
+            font-size: 40px;
+            margin: 0;
+        }
+    }
+
+    .navbar-list{
+        width: 40%;
+
+        ul{
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            
+            a{
+                text-decoration: none;
+                color: black;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
