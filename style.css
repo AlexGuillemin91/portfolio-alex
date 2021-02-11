@@ -707,4 +707,38 @@ html {
   text-transform: uppercase;
 }
 
+main .accueil {
+  background-image: url("../portfolio-alex/img/background.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 20rem;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+main .presentation {
+  width: 80%;
+  margin: auto;
+  background-color: whitesmoke;
+  display: flex;
+  padding-bottom: 2rem;
+}
+main .presentation img {
+  width: 15rem;
+  height: 25rem;
+}
+main .presentation div {
+  display: block;
+  padding-left: 3rem;
+  padding-top: 3rem;
+}
+main .presentation div h3 {
+  font-size: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */

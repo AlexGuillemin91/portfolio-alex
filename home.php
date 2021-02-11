@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The main template file
  *
@@ -15,43 +16,22 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
-
-		<?php
-		if ( have_posts() ) :
-
-			if ( is_home() && ! is_front_page() ) :
-				?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
-				<?php
-			endif;
-
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
-
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
-
-			endwhile;
-
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
-		?>
-
-	</main><!-- #main -->
-
-<?php
-get_sidebar();
-get_footer();
+<main id="primary" class="site-main">
+	<div class="accueil">
+		<h2>Page de présentation</h2>
+	</div>
+	<div class="presentation">
+		<img src="wp-content/themes/portfolio-alex/img/alex.PNG" alt="Alex Guillemin">
+		<div>
+			<h3>Bonjour et bienvenue dans mon portfolio</h3>
+			<p>Mon nom est Alex Guillemin, 
+				étudiant en 2ème année de Bachelor en développement web. 
+				Vous pourrez trouver ici mes différents projets ainsi que différents moyens de me contacter.</p>
+			<p>Alex Guillemin<br>
+				2ème année développement web<br>
+				Pole Léonard de Vinci à la Défense<br>
+				Essonne (91)<br>
+				alex.guillemin@edu.devinci.fr</p>
+		</div>
+	</div>
+</main>
