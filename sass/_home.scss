@@ -34,6 +34,77 @@ main{
             h3{
                 font-size: 2rem;
             }
+
+            h4{
+                font-size: 1.5rem;;
+            }
+
+            a{
+                border-radius: 25px;
+                outline: none;
+                padding: 0.5em 2em;
+                background: linear-gradient(to right, #1A129F 50%, #6156F9);
+                color: white;
+                border: none;
+                text-decoration: none;
+            }
         }
     }
 }
+
+@media (max-width: 421px){
+    main{
+        .accueil{
+            width: 100%;
+        }
+
+        .presentation{
+            width: 100%;
+
+            img{
+                width: 10rem;
+                height: 15rem;
+            }
+
+            div{
+                padding: 0.2rem;
+
+                h3{
+                    margin: 0;
+                    font-size: 1rem;
+                }
+
+                p{
+                    font-size: 0.90rem;
+                }
+    
+                h4{
+                    margin: 0;
+                    font-size: 1rem;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 421px) and (max-width: 700px){
+    main{
+        .accueil{
+            width: 100%;
+        }
+
+        .presentation{
+            width: 100%;
+
+            img{
+                width: 12rem;
+            }
+
+            div{
+                padding: 0.2rem;
+            }
+        }
+    }
+}
+

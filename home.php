@@ -27,11 +27,8 @@ get_header();
 			<p>Mon nom est Alex Guillemin, 
 				étudiant en 2ème année de Bachelor en développement web. 
 				Vous pourrez trouver ici mes différents projets ainsi que différents moyens de me contacter.</p>
-			<p>Alex Guillemin<br>
-				2ème année développement web<br>
-				Pole Léonard de Vinci à la Défense<br>
-				Essonne (91)<br>
-				alex.guillemin@edu.devinci.fr</p>
+			<h4>Bonne visite</h4>			
+			<a href="#">Informations</a>
 		</div>
 	</div>
 </main>

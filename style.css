@@ -693,7 +693,8 @@ html {
   margin: 0;
 }
 .navbar .navbar-list {
-  width: 40%;
+  width: 70%;
+  padding-left: 5rem;
 }
 .navbar .navbar-list ul {
   width: 80%;
@@ -707,6 +708,23 @@ html {
   text-transform: uppercase;
 }
 
+@media (max-width: 700px) {
+  .navbar {
+    display: block;
+  }
+  .navbar .navbar-brand {
+    text-align: center;
+  }
+  .navbar .navbar-list {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 0.2rem;
+  }
+  .navbar .navbar-list ul {
+    width: 100%;
+    padding: 0;
+  }
+}
 main .accueil {
   background-image: url("../portfolio-alex/img/background.jpg");
   background-position: center;
@@ -739,6 +757,60 @@ main .presentation div {
 }
 main .presentation div h3 {
   font-size: 2rem;
+}
+main .presentation div h4 {
+  font-size: 1.5rem;
+}
+main .presentation div a {
+  border-radius: 25px;
+  outline: none;
+  padding: 0.5em 2em;
+  background: linear-gradient(to right, #1A129F 50%, #6156F9);
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+@media (max-width: 421px) {
+  main .accueil {
+    width: 100%;
+  }
+  main .presentation {
+    width: 100%;
+  }
+  main .presentation img {
+    width: 10rem;
+    height: 15rem;
+  }
+  main .presentation div {
+    padding: 0.2rem;
+  }
+  main .presentation div h3 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  main .presentation div p {
+    font-size: 0.9rem;
+  }
+  main .presentation div h4 {
+    margin: 0;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 421px) and (max-width: 700px) {
+  main .accueil {
+    width: 100%;
+  }
+  main .presentation {
+    width: 100%;
+  }
+  main .presentation img {
+    width: 12rem;
+  }
+  main .presentation div {
+    padding: 0.2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
