@@ -28,7 +28,7 @@ get_header();
 				étudiant en 2ème année de Bachelor en développement web. 
 				Vous pourrez trouver ici mes différents projets ainsi que différents moyens de me contacter.</p>
 			<h4>Bonne visite</h4>			
-			<a href="#">Informations</a>
+			<a href="localhost/wordpress/informations">Informations</a>
 		</div>
 	</div>
 </main>
