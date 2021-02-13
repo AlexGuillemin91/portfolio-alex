@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(245, 245, 245);
+
+    main{       
+        margin-top: 4rem;
+
+        section{
+            width: 75%;
+            margin: auto;
+
+            .about-me{
+                h3{
+                    border: 5px solid black;
+                    margin: 0 auto;
+                    text-transform: uppercase;
+                    font-family: "Montserrat";
+                    padding: 1rem 3rem;
+                    width: fit-content;
+                    font-size: 1.5rem;
+                    letter-spacing: 0.4rem;
+                    text-align: center;
+                }
+
+                .infos{
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+
+                    div{
+                        width: 25.25rem;
+                        margin: 1rem 2rem;
+
+                        h4{
+                            font-family: "Montserrat";
+                            text-transform: uppercase;
+                            letter-spacing: 0.2rem;
+                        }
+
+                        p{
+                            color: rgb(114, 111, 111);
+                        }
+                    }
+                }
+            }
+
+            .skills{
+                margin-top: 4rem;
+
+                h3{
+                    border: 5px solid black;
+                    margin: 0 auto;
+                    text-transform: uppercase;
+                    font-family: "Montserrat";
+                    padding: 1rem 3rem;
+                    width: fit-content;
+                    font-size: 1.5rem;
+                    letter-spacing: 0.4rem;
+                }
+
+                .list-skills{
+                    display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                    margin-top: 2rem;
+
+                    div{
+                        width: 15.75rem;
+                        margin: 2rem 0;
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: nowrap;
+                        align-items: center;
+
+                        h4{
+                            font-family: "Montserrat";
+                            text-transform: uppercase;
+                            letter-spacing: 0.2rem;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1650px){
+    body{
+        main{
+            section{
+                .about-me{
+                    .infos{
+                        div{
+                            width: 40%;
+                        }
+                    }
+                }
+                .skills{
+                    .list-skills{
+                        div{
+                            width: 25%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

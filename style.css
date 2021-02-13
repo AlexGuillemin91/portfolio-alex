@@ -680,7 +680,7 @@ html {
 }
 
 .navbar {
-  background-color: whitesmoke;
+  background-color: gainsboro;
   display: flex;
   justify-content: space-around;
 }
@@ -810,6 +810,86 @@ main .presentation div a {
   }
   main .presentation div {
     padding: 0.2rem;
+  }
+}
+body {
+  background-color: whitesmoke;
+}
+body main {
+  margin-top: 4rem;
+}
+body main section {
+  width: 75%;
+  margin: auto;
+}
+body main section .about-me h3 {
+  border: 5px solid black;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  padding: 1rem 3rem;
+  width: fit-content;
+  font-size: 1.5rem;
+  letter-spacing: 0.4rem;
+  text-align: center;
+}
+body main section .about-me .infos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body main section .about-me .infos div {
+  width: 25.25rem;
+  margin: 1rem 2rem;
+}
+body main section .about-me .infos div h4 {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+body main section .about-me .infos div p {
+  color: #726f6f;
+}
+body main section .skills {
+  margin-top: 4rem;
+}
+body main section .skills h3 {
+  border: 5px solid black;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  padding: 1rem 3rem;
+  width: fit-content;
+  font-size: 1.5rem;
+  letter-spacing: 0.4rem;
+}
+body main section .skills .list-skills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+body main section .skills .list-skills div {
+  width: 15.75rem;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+body main section .skills .list-skills div h4 {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+}
+
+@media (min-width: 1650px) {
+  body main section .about-me .infos div {
+    width: 40%;
+  }
+  body main section .skills .list-skills div {
+    width: 25%;
   }
 }
 
