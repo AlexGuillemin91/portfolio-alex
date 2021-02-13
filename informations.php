@@ -24,6 +24,9 @@ get_header();
 						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo ipsa sint libero vitae nemo officiis, esse odio itaque magni placeat quis nesciunt dolorem culpa facere repellendus porro perferendis repudiandae autem.</p>
 					</div>
 				</div>
+				<div class="cv">
+					<a href="../wp-content/themes/portfolio-alex/assets/CV Alex GUILLEMIN.pdf" download>Mon CV <img src="../wp-content/themes/portfolio-alex/img/download.svg"></a>
+				</div>
 			</article>
 			<hr>
 			<article class="skills">

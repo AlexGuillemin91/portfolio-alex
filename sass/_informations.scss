@@ -41,6 +41,19 @@ body{
                         }
                     }
                 }
+                .cv{
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 1rem;
+                    a{
+                        text-decoration: none;
+                        background-color: black;
+                        color: white;
+                        text-transform: uppercase;
+                        font-family: "Montserrat";
+                        padding: 0.5rem 1rem;
+                    }
+                }
             }
 
             .skills{

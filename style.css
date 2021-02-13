@@ -850,6 +850,19 @@ body main section .about-me .infos div h4 {
 body main section .about-me .infos div p {
   color: #726f6f;
 }
+body main section .about-me .cv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+body main section .about-me .cv a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  padding: 0.5rem 1rem;
+}
 body main section .skills {
   margin-top: 4rem;
 }
