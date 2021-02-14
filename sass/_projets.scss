@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(245, 245, 245);
+
+    .main-projet{
+        margin-top: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        article{
+            width: 20rem;
+            height: 35rem;
+            margin: auto;
+            border: 1px solid black;
+
+
+            img{
+                width: 20rem;
+                height: 15rem;
+            }
+
+            div{
+                padding: 0.5rem;
+
+                h3{
+                    text-transform: uppercase;
+                    font-family: "Montserrat";
+                    font-size: 1.5rem;
+                }
+                .lien{
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+
+                    a{
+                        text-decoration: none;
+                        background-color: black;
+                        color: white;
+                        text-transform: uppercase;
+                        font-family: "Montserrat";
+                        padding: 0.5rem 1rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

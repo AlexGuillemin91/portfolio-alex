@@ -725,7 +725,7 @@ html {
     padding: 0;
   }
 }
-main .accueil {
+.main-home .accueil {
   background-image: url("../portfolio-alex/img/background.jpg");
   background-position: center;
   background-size: cover;
@@ -739,29 +739,29 @@ main .accueil {
   color: white;
   font-size: 2rem;
 }
-main .presentation {
+.main-home .presentation {
   width: 80%;
   margin: auto;
   background-color: whitesmoke;
   display: flex;
   padding-bottom: 2rem;
 }
-main .presentation img {
+.main-home .presentation img {
   width: 15rem;
   height: 25rem;
 }
-main .presentation div {
+.main-home .presentation div {
   display: block;
   padding-left: 3rem;
   padding-top: 3rem;
 }
-main .presentation div h3 {
+.main-home .presentation div h3 {
   font-size: 2rem;
 }
-main .presentation div h4 {
+.main-home .presentation div h4 {
   font-size: 1.5rem;
 }
-main .presentation div a {
+.main-home .presentation div a {
   border-radius: 25px;
   outline: none;
   padding: 0.5em 2em;
@@ -815,14 +815,14 @@ main .presentation div a {
 body {
   background-color: whitesmoke;
 }
-body main {
+body .main-infos {
   margin-top: 4rem;
 }
-body main section {
+body .main-infos section {
   width: 75%;
   margin: auto;
 }
-body main section .about-me h3 {
+body .main-infos section .about-me h3 {
   border: 5px solid black;
   margin: 0 auto;
   text-transform: uppercase;
@@ -833,29 +833,29 @@ body main section .about-me h3 {
   letter-spacing: 0.4rem;
   text-align: center;
 }
-body main section .about-me .infos {
+body .main-infos section .about-me .infos {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-body main section .about-me .infos div {
+body .main-infos section .about-me .infos div {
   width: 25.25rem;
   margin: 1rem 2rem;
 }
-body main section .about-me .infos div h4 {
+body .main-infos section .about-me .infos div h4 {
   font-family: "Montserrat";
   text-transform: uppercase;
   letter-spacing: 0.2rem;
 }
-body main section .about-me .infos div p {
+body .main-infos section .about-me .infos div p {
   color: #726f6f;
 }
-body main section .about-me .cv {
+body .main-infos section .about-me .cv {
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
 }
-body main section .about-me .cv a {
+body .main-infos section .about-me .cv a {
   text-decoration: none;
   background-color: black;
   color: white;
@@ -863,10 +863,10 @@ body main section .about-me .cv a {
   font-family: "Montserrat";
   padding: 0.5rem 1rem;
 }
-body main section .skills {
+body .main-infos section .skills {
   margin-top: 4rem;
 }
-body main section .skills h3 {
+body .main-infos section .skills h3 {
   border: 5px solid black;
   margin: 0 auto;
   text-transform: uppercase;
@@ -876,13 +876,13 @@ body main section .skills h3 {
   font-size: 1.5rem;
   letter-spacing: 0.4rem;
 }
-body main section .skills .list-skills {
+body .main-infos section .skills .list-skills {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 2rem;
 }
-body main section .skills .list-skills div {
+body .main-infos section .skills .list-skills div {
   width: 15.75rem;
   margin: 2rem 0;
   display: flex;
@@ -890,7 +890,7 @@ body main section .skills .list-skills div {
   flex-wrap: nowrap;
   align-items: center;
 }
-body main section .skills .list-skills div h4 {
+body .main-infos section .skills .list-skills div h4 {
   font-family: "Montserrat";
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -904,6 +904,47 @@ body main section .skills .list-skills div h4 {
   body main section .skills .list-skills div {
     width: 25%;
   }
+}
+body {
+  background-color: whitesmoke;
+}
+body .main-projet {
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+body .main-projet article {
+  width: 20rem;
+  height: 35rem;
+  margin: auto;
+  border: 1px solid black;
+}
+body .main-projet article img {
+  width: 20rem;
+  height: 15rem;
+}
+body .main-projet article div {
+  padding: 0.5rem;
+}
+body .main-projet article div h3 {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+}
+body .main-projet article div .lien {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+body .main-projet article div .lien a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  padding: 0.5rem 1rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

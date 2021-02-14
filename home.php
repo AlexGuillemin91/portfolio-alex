@@ -16,7 +16,7 @@
 get_header();
 ?>
 
-<main id="primary" class="site-main">
+<main class="main-home">
 	<div class="accueil">
 		<h2>Page de présentation</h2>
 	</div>
@@ -32,3 +32,5 @@ get_header();
 		</div>
 	</div>
 </main>
+</body>
+</html>

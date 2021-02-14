@@ -6,7 +6,7 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+	<main class="main-infos">
 		<section>
 			<article class="about-me">
 				<h3>about me</h3>
@@ -70,3 +70,4 @@ get_header();
 		</section>
 	</main>
 </body>
+</html>
