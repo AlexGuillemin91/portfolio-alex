@@ -917,7 +917,7 @@ body .main-projet {
 body .main-projet article {
   width: 20rem;
   height: 35rem;
-  margin: auto;
+  margin: 2rem;
   border: 1px solid black;
 }
 body .main-projet article img {
