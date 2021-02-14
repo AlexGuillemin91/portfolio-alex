@@ -726,24 +726,22 @@ html {
   }
 }
 .main-home .accueil {
-  background-image: url("../portfolio-alex/img/background.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 20rem;
-  width: 80%;
   margin: auto;
+  width: fit-content;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  border: 5px solid black;
+  padding: 1rem 3rem;
+  margin-top: 3rem;
 }
 .main-home .presentation {
   width: 80%;
-  margin: auto;
-  background-color: whitesmoke;
+  margin: 2rem auto;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   padding-bottom: 2rem;
 }
 .main-home .presentation img {
@@ -752,6 +750,7 @@ html {
 }
 .main-home .presentation div {
   display: block;
+  width: 70%;
   padding-left: 3rem;
   padding-top: 3rem;
 }
@@ -760,56 +759,36 @@ html {
 }
 .main-home .presentation div h4 {
   font-size: 1.5rem;
+  margin-bottom: 0;
 }
 .main-home .presentation div a {
-  border-radius: 25px;
   outline: none;
   padding: 0.5em 2em;
-  background: linear-gradient(to right, #1A129F 50%, #6156F9);
+  background-color: black;
   color: white;
-  border: none;
   text-decoration: none;
+  font-family: "Montserrat";
+  text-transform: uppercase;
 }
 
-@media (max-width: 421px) {
-  main .accueil {
+@media (max-width: 700px) {
+  .main-home .presentation {
     width: 100%;
   }
-  main .presentation {
+  .main-home .presentation div {
     width: 100%;
+    padding: 1rem;
   }
-  main .presentation img {
-    width: 10rem;
-    height: 15rem;
+  .main-home .presentation div h3 {
+    text-align: center;
   }
-  main .presentation div {
-    padding: 0.2rem;
+  .main-home .presentation div h4 {
+    text-align: center;
+    margin-bottom: 0;
   }
-  main .presentation div h3 {
-    margin: 0;
-    font-size: 1rem;
-  }
-  main .presentation div p {
-    font-size: 0.9rem;
-  }
-  main .presentation div h4 {
-    margin: 0;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-}
-@media (min-width: 421px) and (max-width: 700px) {
-  main .accueil {
-    width: 100%;
-  }
-  main .presentation {
-    width: 100%;
-  }
-  main .presentation img {
-    width: 12rem;
-  }
-  main .presentation div {
-    padding: 0.2rem;
+  .main-home .presentation div .button-infos {
+    display: flex;
+    justify-content: center;
   }
 }
 body {

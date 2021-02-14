@@ -18,19 +18,22 @@ get_header();
 
 <main class="main-home">
 	<div class="accueil">
-		<h2>Page de présentation</h2>
+		<h2>home page</h2>
 	</div>
 	<div class="presentation">
 		<img src="wp-content/themes/portfolio-alex/img/alex.PNG" alt="Alex Guillemin">
 		<div>
-			<h3>Bonjour et bienvenue dans mon portfolio</h3>
-			<p>Mon nom est Alex Guillemin, 
-				étudiant en 2ème année de Bachelor en développement web. 
+			<h3>Bonjour et bienvenue dans mon portfolio !</h3>
+			<p>Mon nom est Alex Guillemin,
+				étudiant en 2ème année de Bachelor en développement web.
 				Vous pourrez trouver ici mes différents projets ainsi que différents moyens de me contacter.</p>
-			<h4>Bonne visite</h4>			
-			<a href="localhost/wordpress/informations">Informations</a>
+			<h4>Bonne visite !</h4>
+			<div class="button-infos">
+				<a href="localhost/wordpress/informations">Informations</a>
+			</div>
 		</div>
 	</div>
 </main>
 </body>
+
 </html>
