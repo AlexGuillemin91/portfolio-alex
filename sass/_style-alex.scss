@@ -4,12 +4,17 @@
     justify-content: space-around;
 
     .navbar-brand{
-        text-transform: none;
         font-family: "Lovers Quarrel";
 
-        h2{
-            font-size: 40px;
-            margin: 0;
+        a{
+            outline: none;
+            text-decoration: none;
+            color: black;
+            
+            h2{
+                font-size: 40px;
+                margin: 0;
+            }
         }
     }
 

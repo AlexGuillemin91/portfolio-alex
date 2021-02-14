@@ -685,10 +685,14 @@ html {
   justify-content: space-around;
 }
 .navbar .navbar-brand {
-  text-transform: none;
   font-family: "Lovers Quarrel";
 }
-.navbar .navbar-brand h2 {
+.navbar .navbar-brand a {
+  outline: none;
+  text-decoration: none;
+  color: black;
+}
+.navbar .navbar-brand a h2 {
   font-size: 40px;
   margin: 0;
 }

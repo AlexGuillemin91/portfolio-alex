@@ -33,7 +33,7 @@
 
 		<nav class="navbar">
 			<div class="navbar-brand">
-				<h2>Alex Guillemin</h2>
+				<a href="../"><h2>Alex Guillemin</h2></a>
 			</div>
 			<div class="navbar-list">
 				<ul>
